@@ -85,5 +85,5 @@ processed <- function(){
     melting <- dcast(melting, SUBJECT_ID+Activity_ID ~ variable, mean)
     
     ##Write in a file
-    write.csv(melting, file="tidy.csv", sep=",")
+    write.table(melting, file="tidy_data.txt", row.name=FALSE)
 }

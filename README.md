@@ -18,4 +18,4 @@
 **Once those steps are complete, you can run the R script ([run_analysis.R](run_analysis.R)).
 ** Note that it requires the 'reshape2' package
 
-**The output of the R script is a tidy data set, [tidy.csv](tidy.csv).**
+**The output of the R script is a tidy data set, [tidy.csv](tidy_data.txt).**
